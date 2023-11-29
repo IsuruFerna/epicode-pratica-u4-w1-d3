@@ -16,12 +16,12 @@ public class Rectangle {
         this.rectangle2 = rectangle2;
     }
 
-    public String perimeter() {
-       return "perimeter: " + (2 * (length + width));
+    public double perimeter() {
+       return (2 * (length + width));
     }
 
-    public String area() {
-        return "area: " + (length * width);
+    public double area() {
+        return length * width;
     }
 
     public void stampaRettangolo() {
